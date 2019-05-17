@@ -26,8 +26,11 @@
 
 #### Build and Test
 ```bash
-make build
+make docker-build
+```
+Fill docker.env with actual params, then:
 
-make test
+```bash
+make docker-test
 
 ```
